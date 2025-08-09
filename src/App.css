@@ -1,0 +1,23 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #aaa;
+}
+
+th {
+  padding: 0em 0.5em;
+}
+
+tr:nth-child(even) {
+  background-color: var(--secondary-color);
+} 
